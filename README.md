@@ -8,11 +8,13 @@ Shows crop statistics such as average yield and average cultivation area between
 
 ### Yearly Crop Data Table
 
-![Yearly Crop Data Table](/my-agriculture-dashboard/public/screenshots/yearly_crop_data.png)
+![Yearly Crop Data Table1](/public/screenshots/yearly_crop_data1.png)
+![Yearly Crop Data Table2](/public/screenshots/yearly_crop_data2.png)
+![Yearly Crop Data Table3](/public/screenshots/yearly_crop_data3.png)
 
 ### Crop Statistics Table
 
-![Crop Statistics Table](/my-agriculture-dashboard/public/screenshots/crop_statistics.png)
+![Crop Statistics Table](/public/screenshots/crop_statistics.png)
 
 ### Technologies Used
 TypeScript/JavaScript
