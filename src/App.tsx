@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import YearlyCropTable from './components/YearlyCropTable';
+import CropStatsTable from './components/CropStatsTable';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="tables">
+        <h2>Yearly Crop Data</h2>
+        <YearlyCropTable />
+        <h2>Crop Statistics</h2>
+        <CropStatsTable />
+      </div>
     </div>
   );
 }
